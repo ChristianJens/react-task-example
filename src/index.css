@@ -1,0 +1,17 @@
+/* * Aprendindo Tailwind.css */
+/* Puedo usar sin ningun problema, pero ahora usare talwind que es un framework de css
+nos dirijimos a su pagina https://tailwindcss.com en la seccion getStarted y Framework Guides, escogere para vite:
+Primero: me dice crea un proyecto de vite.
+Segundo: copia los siguientes comandos "npm install -D tailwindcss postcss autoprefixer" y lo siguiente es inicializar talwind "npx tailwindcss init -p", esto lo que hace es crear dos archivos de configuracion talwind.config.js y postcss.config.js
+Tercero: me dice que actulice parte del codigo de talwind.config.css 
+finalmente esto reinicia los estilos
+Cuarto: lo siguiente es añadir en el index.css estos estilos de la documentacion  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* En visualStudioCode se puede instalar un complemento que permite el autocompletado de tailwind.css de tailwind Labs que le permite aucompletar clases de tailwind */
+
+/* body {
+    background-color: #202020;
+} */
