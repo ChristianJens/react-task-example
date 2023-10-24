@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // Poniedo la configuracion para despliegue
   // base: '/https://github.com/ChristianJens/react-tasks-deploy/',
-  // base: "/react-task-example/",
+  base: "/react-task-example/",
 });
